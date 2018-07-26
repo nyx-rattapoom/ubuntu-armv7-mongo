@@ -12,4 +12,4 @@ ENTRYPOINT ["docker-entrypoint.sh"]
 
 EXPOSE 27017
 
-CMD ["mongod", "--journal", "--storageEngine=mmapv1"]
+CMD ["mongod", "--storageEngine=mmapv1"]
